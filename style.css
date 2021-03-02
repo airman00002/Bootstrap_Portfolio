@@ -1,0 +1,131 @@
+* {
+  font-family: "Kanit", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+
+.profile img {
+  margin: 1rem 0;
+  width: 10%;
+  height: 10%;
+}
+
+#profile {
+  min-height: 450px;
+  position: relative;
+  background-image: url(images/Air-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  background-attachment: fixed; /*ภาพอยู่ด้านหลัง slide   */
+}
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+.html {
+  color: rgb(241, 115, 31);
+}
+.bootstrap {
+  color: rgb(115, 23, 177);
+}
+.css {
+  color: rgb(35, 99, 219);
+}
+.javascript {
+  color: rgb(218, 198, 20);
+}
+.node {
+  color: rgb(93, 218, 20);
+}
+.react {
+  color: rgb(38, 0, 255);
+}
+.database {
+  color: gray;
+}
+.highligh {
+  color: rgb(233, 229, 24);
+}
+.success {
+  color: rgb(105, 228, 89);
+}
+
+.project-all {
+  position: relative;
+  background-image: url("images/city.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  overflow: hidden;
+
+}
+.project-dark-overlay {
+     background-color: rgba(0, 0, 0, 0.7);
+       padding: 20px;
+       
+}
+/* .project-img {
+    
+} */
+.project-img img {
+  border-radius: 10px;
+  width: 100%;
+  max-height: 300px;
+  /* background-size: cover; */
+ 
+}
+
+.socail-img ul {
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  margin: bottom 50px;
+}
+.socail-img ul li {
+  display: inline;
+  padding: 0 15px;
+  /* background: rgba(204, 204, 204, 0.5); */
+  /* padding: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background 150ms ease-in-out; */
+}
+
+#i1 {
+  color: rgb(165, 165, 209);
+  transition: 2s;
+}
+#i1 :hover {
+  color: rgb(68, 68, 245);
+}
+
+#i2 {
+  color: rgb(165, 165, 209);
+}
+#i2 :hover {
+  color: rgb(231, 147, 36);
+}
+
+#i3 {
+  color: rgb(165, 165, 209);
+}
+#i3 :hover {
+  color: rgb(42, 42, 82);
+}
+
+@media (max-width: 768px) {
+     .project-img img {
+          border-radius: 10px;
+          width: 80%;
+          max-height: 400px;
+         margin-bottom: 10px;
+         
+        }
+}
