@@ -7,8 +7,8 @@ body {
 
 .profile img {
   margin: 1rem 0;
-  width: 10%;
-  height: 10%;
+  width: 180px;
+  height: 180px;
 }
 
 #profile {
@@ -128,4 +128,19 @@ body {
          margin-bottom: 10px;
          
         }
+}
+
+/* @media (max-width:1000px){
+  .profile img {
+    margin: 1rem 0;
+    width: 100px;
+    height: 100px;
+  }
+} */
+@media (max-width:500px){
+  .profile img {
+    margin: 1rem 0;
+    width: 150px;
+    height: 150px;
+  }
 }
