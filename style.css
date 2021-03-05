@@ -64,6 +64,7 @@ body {
   background-repeat: no-repeat;
   text-align: center;
   overflow: hidden;
+  background-attachment: fixed; /*ภาพอยู่ด้านหลัง slide   */
 
 }
 .project-dark-overlay {
