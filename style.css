@@ -72,9 +72,9 @@ body {
        padding: 20px;
        
 }
-/* .project-img {
-    
-} */
+.project-img {
+    margin: 10px 0;
+}
 .project-img img {
   border-radius: 10px;
   width: 100%;
