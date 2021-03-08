@@ -65,22 +65,50 @@ body {
   text-align: center;
   overflow: hidden;
   background-attachment: fixed; /*ภาพอยู่ด้านหลัง slide   */
-
 }
 .project-dark-overlay {
-     background-color: rgba(0, 0, 0, 0.7);
-       padding: 20px;
-       
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
 }
 .project-img {
-    margin: 10px 0;
+  position: relative;
+  margin: 10px 0;
 }
 .project-img img {
+  display: block;
   border-radius: 10px;
   width: 100%;
   max-height: 300px;
   /* background-size: cover; */
- 
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 12px;
+  right: 12px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.527);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.img-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.img-overlay:hover {
+  opacity: 1;
+}
+
+.img-overlay-blur{
+  backdrop-filter: blur(2px);
 }
 
 .socail-img ul {
@@ -122,13 +150,12 @@ body {
 }
 
 @media (max-width: 768px) {
-     .project-img img {
-          border-radius: 10px;
-          width: 80%;
-          max-height: 400px;
-         margin-bottom: 10px;
-         
-        }
+  .project-img img {
+    border-radius: 10px;
+    width: 80%;
+    max-height: 400px;
+    margin-bottom: 10px;
+  }
 }
 
 /* @media (max-width:1000px){
@@ -138,7 +165,7 @@ body {
     height: 100px;
   }
 } */
-@media (max-width:500px){
+@media (max-width: 500px) {
   .profile img {
     margin: 1rem 0;
     width: 150px;
