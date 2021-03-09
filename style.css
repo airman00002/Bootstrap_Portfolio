@@ -107,7 +107,7 @@ body {
   opacity: 1;
 }
 
-.img-overlay-blur{
+.img-overlay-blur {
   backdrop-filter: blur(2px);
 }
 
@@ -152,7 +152,7 @@ body {
 @media (max-width: 768px) {
   .project-img img {
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     max-height: 400px;
     margin-bottom: 10px;
   }
