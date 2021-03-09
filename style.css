@@ -156,6 +156,9 @@ body {
     max-height: 400px;
     margin-bottom: 10px;
   }
+  .img-overlay {
+    bottom: 10px;
+  }
 }
 
 /* @media (max-width:1000px){
